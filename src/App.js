@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 export default class App extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class App extends Component {
         <div className="app">
           <Header/>
           <main>Main</main>
-          <footer>footer</footer>
+          <Footer/>
         </div>
     );
   }
