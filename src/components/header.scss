@@ -1,0 +1,32 @@
+.app-header {
+  background-color: blue;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-menu {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    .menu-logo {
+      width: 20%
+    }
+
+    .menu-search-area {
+      width: 30%;
+      margin-right: 40px;
+      .search-area-input{
+        width: 100%;
+      }
+    }
+  }
+
+  .header-auth {
+    margin-right: 70px
+  }
+
+}
+
